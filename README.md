@@ -1,8 +1,9 @@
-# Crypto Sentiment Data
+# Cryptocurrency Sentiment Data
 
-by [Qokka Inc](https://qokka.ai)
+by [Qokka Team](https://qokka.ai)
 
 ## Introduction
+
 
 In Qokka | Crypto ([https://crypto.qokka.com](https://crypto.qokka.com/)), we continuously analyze community discussions from Reddit and Telegram for over 1500+ blockchain projects which have tradable cryptocurrencies. We include a community only if it is well established (e.g. /r/bitcoin on Reddit) or is officially managed by the project (e.g. [https://t.me/algorand](https://t.me/algorand) on Telegram). We use third-party data sources such as Coinmarketcap to collect and verify the status of the communities..
 
@@ -11,14 +12,27 @@ Most projects only have one active community. For example, Bitcoin only has Redd
 ## Data
 
 ### Methodology
+#### Data Collection
+We are one of the very few collecting authentic community discussion data on Reddit and Telegram. Whereas others only include Twitter data. As we all know that blockchain and cryptocurrency communities are mostly on Reddit, Telegram and Discord (coming soon). 
 
-The unique thing about our sentiment data is everything is focused on authentic community discussions. Unlike other companies which mostly only analyze news or tweets on Twitter using generic third-party services (e.g. IBM Watson, Social Market Analytics, Google NLP, Amazon Comprehend, and many others), we collect large volume of online community discussions ourselves using our own systems, then use our own algorithms and build our own models to analyze the sentiments, topics, interest profiles, and many other things, for each and every user and discussion we collected.
+We built our own large scale real time crawl to collect all relevant data on various community platforms. 
 
-We generally exclude discussions that are uninformative (e.g. a meme, simple emojis, etc.). In some cases, especially for topic and interest profile analysis, we transform the discussion into a different format that emphasizes more on what and how things are described, instead of keeping its original form. 
+#### Data Cleaning
+We only analyze informative discussion data, uninformative data, such as memes and emojis, are excluded. We also transform discussion data into a format that emphasiezs more than what and how things are described and discussed. 
 
-In sentiment analysis, We train our models using data where labels are readily available (e.g. reviews, forums, etc.). We use deep learning methods that recognize semantic compositions in sentences, and predict sentiment of each sentence using 5 classes (very negative, negative, neutral, positive, very positive) with a score of 1 to 5. This means our methods won't just look out for keywords in sentences (e.g. good, bad, great, etc.). Instead, it looks at the overall structure and relationships between the words to some extent, and in principle shouldn't be confused by complex structures like double negative. However it may still be confused in less common cases (e.g. sacarcisms). 
+#### Data Analysis
+Same as the crawlers, we also built our own systems, algorithms and machine learning models for sentiment analysis, topic modeling and interest profiling. Whereaes others are relying on third-party services, such as IBM Watson, Google NLP, Amazon Comprehend and Social Market Analytics, which are not designed for analyzing conversational community discussions. 
+ 
+For sentiment analysis:
+1. We train our models using data where labels are readily available.
 
-We then combine the scores of sentences into a score between 1 to 5 for the discussion. In the end, when we compute the sentiment for a time range (e.g. for an hour), we use a combination of metrics (e.g. positive percentage, negative percentage, number of discussions) and compute a score between 0 to 1. Note that, this score is not normalized across cryptocurrencies, or across different time ranges for one cryptocurrency. We leave that at the discretion of our users since they might need the flexibility to normalize the scores differently.
+2. We use deep learning methods that recognize semantic compositions in sentences.
+
+3. We predict sentiment of each sentence using 5 classes with a score of 1 to 5: very negative, negative, neutral, positive, very positive. This means our methods won't just look out for keywords in sentences (e.g. good, bad, great). Instead, it looks at the overall structure and relationships between the words to some extent, and in principle shouldn't be confused by complex structures like double negative. However it may still be confused in less common cases (e.g. sacarcisms). 
+
+4. We then combine the scores of sentences into a score between 1 to 5 for the discussion. 
+
+5. In the end, when we compute the sentiment for a time range (e.g. for an hour), we use a combination of metrics (e.g. positive percentage, negative percentage, number of discussions) and compute a score between 0 to 1. Note that, this score is not normalized across cryptocurrencies, or across different time ranges for one cryptocurrency. We leave that at the discretion of our users since they might need the flexibility to normalize the scores differently.
 
 
 ### Dataset: 2019-daily-sentiment-price
