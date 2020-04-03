@@ -75,7 +75,7 @@ Price related fields
 
 ## About us
 
-Our team has been working on machine learning research, engineering, and product design and management since 2012. We have been working on cryptocurrency related products since 2017. To learn more about us, please check out [our website](https:// qokka.ai)
+Our team has been working on machine learning research, engineering, and product design and management since 2012. We have been working on cryptocurrency related products since 2017. To learn more about us, please check out [our website](https://qokka.ai)
 
 ## FAQ
 
@@ -85,7 +85,7 @@ We may release higher resolution data soon for a limited subset of cryptocurrenc
 
 Q2: Can I use this data for commercial purposes?
 
-Under the license terms, you cannot. If you need a commerce license, please contact us at [team@qokka.ai](mailto:team@qokka.ai), or sign up for an API plan at Qokka | Crypto ([https://crypto.qokka.com](https://crypto.qokka.com/)). Feel free to be creative and experiment with the data, for example: building a trading bot, backtesting your algorithms, writing an article about sentiments of cryptocurrency landscape, as long as you attribute us when you publish your work. It is our understanding that these use cases are not limited by the "non-derivative" part of the license terms, since you would be creating essentially a new body of work, and you would not mix in our data when you publish your work. 
+Under the license terms, you cannot. If you need a commercial license, please contact us at [team@qokka.ai](mailto:team@qokka.ai), or sign up for an API plan at Qokka | Crypto ([https://crypto.qokka.com](https://crypto.qokka.com/)). For normal usage, the monthly subscription fees are less than 3 cups of coffee in Bay Area. Feel free to be creative and experiment with the data, for example: building a trading bot, backtesting your algorithms, writing an article about sentiments of cryptocurrency landscape, as long as you attribute us when you publish your work. It is our understanding that these use cases are not limited by the "non-derivative" part of the license terms, since you would be creating essentially a new body of work, and you would not mix in our data when you publish your work. 
 
 
 Please feel free to contact us at [team@qokka.ai](mailto:team@qokka.ai) if you have any other questions.
