@@ -92,7 +92,7 @@ Please feel free to contact us at [team@qokka.ai](mailto:team@qokka.ai) if you h
 
 ## Community
 
-Please join our [Slack](https://qokka.typeform.com/to/T1W0eF) or [Discord](https://discord.gg/UyrH3QK) community. We are here to help.
+Please join our [Telegram](https://t.me/qokka_ai). We are here to help.
 
 ## License
 
