@@ -5,7 +5,7 @@ by [Qokka Team](https://qokka.ai)
 ## Introduction
 
 
-In Qokka | Crypto ([https://crypto.qokka.com](https://crypto.qokka.com/)), we continuously analyze community discussions from Reddit and Telegram for over 1500+ blockchain projects which have tradable cryptocurrencies. We include a community only if it is well established (e.g. /r/bitcoin on Reddit) or is officially managed by the project (e.g. [https://t.me/algorand](https://t.me/algorand) on Telegram). We use third-party data sources such as Coinmarketcap to collect and verify the status of the communities..
+In CryptoQokka ([https://cryptoqokka.com](https://cryptoqokka.com/)), we continuously analyze community discussions from Reddit and Telegram for over 1500+ blockchain projects which have tradable cryptocurrencies. We include a community only if it is well established (e.g. /r/bitcoin on Reddit) or is officially managed by the project (e.g. [https://t.me/algorand](https://t.me/algorand) on Telegram). We use third-party data sources such as Coinmarketcap to collect and verify the status of the communities..
 
 Most projects only have one active community. For example, Bitcoin only has Reddit. Some projects have both a Reddit community and an active Telegram group (e.g. EOS). 
 
@@ -81,18 +81,18 @@ Our team has been working on machine learning research, engineering, and product
 
 Q1: Do you have data with higher resolution, and for more cryptocurrencies?
 
-We may release higher resolution data soon for a limited subset of cryptocurrencies, but you can also get it from Qokka | Crypto ([https://crypto.qokka.com](https://crypto.qokka.com/)), especially if you want to build something for commercial purposes. It offers the data for all cryptocurrencies (1500+) we track. If you need some customizations, please feel free to contact us. 
+We may release higher resolution data soon for a limited subset of cryptocurrencies, but you can also get it from CryptoQokka ([https://cryptoqokka.com](https://cryptoqokka.com/)), especially if you want to build something for commercial purposes. It offers the data for all cryptocurrencies (1500+) we track. If you need some customizations, please feel free to contact us. 
 
 Q2: Can I use this data for commercial purposes?
 
-Under the license terms, you cannot. If you need a commercial license, please contact us at [team@qokka.ai](mailto:team@qokka.ai), or sign up for an API plan at Qokka | Crypto ([https://crypto.qokka.com](https://crypto.qokka.com/)). For normal usage, the monthly subscription fees are less than 3 cups of coffee in Bay Area. Feel free to be creative and experiment with the data, for example: building a trading bot, backtesting your algorithms, writing an article about sentiments of cryptocurrency landscape, as long as you attribute us when you publish your work. It is our understanding that these use cases are not limited by the "non-derivative" part of the license terms, since you would be creating essentially a new body of work, and you would not mix in our data when you publish your work. 
+Under the license terms, you cannot. If you need a commercial license, please contact us at [team@qokka.ai](mailto:team@qokka.ai), or sign up for an API plan at Qokka | Crypto ([https://cryptoqokka.com](https://cryptoqokka.com/)). For normal usage, the monthly subscription fees are less than 3 cups of coffee in Bay Area. Feel free to be creative and experiment with the data, for example: building a trading bot, backtesting your algorithms, writing an article about sentiments of cryptocurrency landscape, as long as you attribute us when you publish your work. It is our understanding that these use cases are not limited by the "non-derivative" part of the license terms, since you would be creating essentially a new body of work, and you would not mix in our data when you publish your work. 
 
 
 Please feel free to contact us at [team@qokka.ai](mailto:team@qokka.ai) if you have any other questions.
 
 ## Community
 
-Please join our [Telegram](https://t.me/qokka_ai). We are here to help.
+Please join our [Telegram](https://t.me/qokka_ai) and [Discord](https://discord.gg/g5yEJ6nS). We are here to help.
 
 ## License
 
